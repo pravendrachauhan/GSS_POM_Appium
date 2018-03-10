@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MainPageUI {
-	
 	WebDriver driver;
 	public MainPageUI(WebDriver driver) {
 		this.driver=driver;
