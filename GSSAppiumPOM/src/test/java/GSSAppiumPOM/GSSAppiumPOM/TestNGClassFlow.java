@@ -29,6 +29,7 @@ public class TestNGClassFlow {
 	@BeforeSuite
 	public void setUp() throws InterruptedException, MalformedURLException {
 		System.out.println("Before Suite");
+		System.out.println("Testing Purpose");
 	}
 	
 	@BeforeTest
