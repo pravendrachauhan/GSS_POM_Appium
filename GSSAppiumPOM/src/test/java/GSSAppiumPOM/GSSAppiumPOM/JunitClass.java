@@ -18,6 +18,7 @@ public class JunitClass {
 	AndroidDriver driver;
 	@BeforeMethod
 	public void setUp() throws InterruptedException, MalformedURLException {
+		System.out.println("Junit Testing");
 		DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("deviceName", "192.168.56.101:5555");
 		cap.setCapability("platformName", "Android");
